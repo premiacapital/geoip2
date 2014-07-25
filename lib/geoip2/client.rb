@@ -15,6 +15,7 @@ module Geoip2
     include Geoip2::Api::Country
     include Geoip2::Api::CityIspOrg
     include Geoip2::Api::Omni
+    include Geoip2::Api::Insights
 
     #
     # Creates a new instance of Geoip2::Client
